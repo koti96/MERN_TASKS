@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">Event Registration Form</h2>
+    <fieldset>
+        <legend>Event Registration Form</legend>
+        <fieldset>
+         <legend>Basic Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="enter your name">
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="enter valid email">
+            <br><br>
+            <label for="phoneno">Phone Number:</label>
+            <input type="number" name="phoneno" placeholder="enter Phone no">
+            <br><br>
+            <label for="altphnno">Alternative Phone Number:</label>
+            <input type="number" name="altphnno" placeholder="enter Alternative phone no">
+            <br><br>
+            <label for="adress">Adress:</label>
+            <input type="text" name="adress" placeholder="enter your adress">
+            <br><br>
+            <label for="eventtype">Event Type:</label>
+            <select name="eventtype" title="eventtype">
+                <option value="eventtype"></option>
+                <option value="eventtype">general Attendee</option>
+                <option value="eventtype">Speaker</option>
+                <option value="eventtype">Exhibitor</option>
+                <option value="eventtype">Sponser</option>
+            </select>
+        </fieldset>
+         <fieldset>
+            <legend>Event-Specific Details</legend>
+            <fieldset>
+                <legend>For General Attendees</legend>
+                <label for="tickettype">Ticket Type:</label>
+                <select name="tickettype" id="">
+                    <option value=""></option>
+                    <option value="">V.I.P</option>
+                    <option value="">Standard</option>
+                    <option value="">Student</option>
+                    <option value="">Volunteer</option>
+                    <option value="">Media</option>
+                    <option value="">Other</option>
+                </select>
+                <br><br>
+                <label for="dateandtime">Date And Time:</label>
+                <input type="datetime-local" name="dateandtime" id="">
+                <br><br>
+                <label for="NoOfTickets">Number Of Tickets:</label>
+                <input type="number" name="NoOfTickets" placeholder="enter no of tickets">
+                <br><br>
+                <label for="diet">Dietary Restrictions:</label>
+                <select name="diet" id="">
+                    <option value=""></option>
+                    <option value="">Vegetarian</option>
+                    <option value="">Non-Vegetarian</option>
+                    <option value="">Vegan</option>
+                    <option value="">Dairy-Free</option>
+                    <option value="">Others</option>
+                </select>
+                <br><br>
+                <label for="Special Accommodations">Special Accommodations:</label>
+                <select name="Special Accommodations" id="">
+                    <option value=""></option>
+                    <option value="">Wheelchair Accessible Seating</option>
+                    <option value="">Sign Language Interpreter</option>
+                    <option value="">Assistive Listening Devices</option>
+                    <option value="">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>For Speakers</legend>
+                <label for="topic">Proposed Topic:</label>
+                <input type="text" name="topic" placeholder="enter you topic">
+                <br><br>
+                <label for="bio">Speaker Bio:</label>
+                <input type="text" name="bio" placeholder="Enter your bio">
+                <br><br>
+                <label for="prefer">Preferred Presentation Format:</label>
+                <br>
+                <input type="radio" name="prefer" id="">Keynote <br>
+                <input type="radio" name="prefer" id="">Breakout Session <br>
+                <input type="radio" name="prefer" id="">Panel Discussion <br>
+                <input type="radio" name="prefer" id="">Workshop <br>
+                <br>
+                <label for="equipment">A/V Equipment Needs:</label> <br>
+                <input type="checkbox" name="" id="">Projector <br>
+                <input type="checkbox" name="" id="">Microphone <br>
+                <input type="checkbox" name="" id="">Laptop <br>
+                <input type="checkbox" name="" id="">Others <br>
+            </fieldset>
+            <fieldset>
+                <legend>For Sponsors</legend>
+                <label for="level">Sponsorship Level:</label>
+                <select name="level" id="">
+                    <option ></option>
+                    <option value="">Platinum</option>
+                    <option value="">Gold</option>
+                    <option value="">Silver</option>
+                    <option value="">Bronze</option>
+                </select>
+                <br><br>
+                <label for="logo">Logo:</label>
+                <input type="file" name="logo" id="">
+                <br><br>
+                <label for="market">Market Materials:</label> <br>
+                <input type="radio" name="" id="">pres release <br>
+                <input type="radio" name="" id="">Sociial media <br>
+                <input type="radio" name="" id="">Email Marketing <br>
+            </fieldset>
+            <fieldset>
+                <legend>Emergency Contact Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="" placeholder="enter name">
+                <br><br>
+                <label for="relation">Realationship:</label>
+                <input type="text" name="relation" placeholder="enter relationship">
+                <br><br>
+                <label for="phnno">phone Number:</label>
+                <input type="number" name="phnno" placeholder="enter phn no">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="mode">Payment Mode:</label> <br>
+                <input type="radio" name="mode" id="">Credit Card <br>
+                <input type="radio" name="mode" id="">Debit Card <br>
+                <input type="radio" name="mode" id="">PayPal <br>
+                <input type="radio" name="mode" id="">Check <br>
+            </fieldset>
+            <input type="checkbox" name="" id="">Consent to Use of Image and Likeness
+            <br>
+            <input type="checkbox" name="" id="">Terms and Conditions
+            <br>
+            <label for="feedback">Feeddback:</label> <br>
+            <textarea name="feedback" id="">enter your feeedback</textarea>
+            <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </fieldset>
+</body>
+</html>
